@@ -3,7 +3,7 @@ from english_words import english_words_lower_set
 from itertools import permutations, combinations
 # use english_words_lower_set for test
 
-string = "drpeppersasneo"
+string = "sasneo"
 string_list = string.split()
 
 

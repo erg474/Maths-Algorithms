@@ -162,8 +162,8 @@ for prime in primes:
 '''
 
 t0_2 = time.time()
-c = SieveOfEratosthenes(300000000)
-print("Total prime numbers in range:", c)
+sieve = SieveOfEratosthenes(10000000)
+print("Total prime numbers in range:", sieve)
 
 t1_2 = time.time()
 print("Time Required:", t1_2 - t0_2)

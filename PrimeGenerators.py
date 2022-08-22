@@ -162,7 +162,7 @@ for prime in primes:
 '''
 
 t0_2 = time.time()
-sieve = SieveOfEratosthenes(10000000)
+sieve = SieveOfEratosthenes(100000000)
 print("Total prime numbers in range:", sieve)
 
 t1_2 = time.time()
